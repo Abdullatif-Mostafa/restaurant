@@ -1,0 +1,114 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.testmonial
+{
+    width: 100%;
+    min-height: 500px;
+    position: relative;
+    overflow: hidden;
+    /* background-color: #F1F8FF; */
+    padding-top: 30px;
+}
+.testmonial .clients
+{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Almarai', sans-serif;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Pacifico', cursive;
+    color: #FEA116;
+    font-size: 1.6rem;
+    
+}
+.testmonial .clients span
+{
+    width: 50px;
+    height: 3px;
+    background-color: #FEA116;
+    display: flex;
+    align-items: center;
+    margin: 20px 10px;
+}
+/* color: #FEA116; */
+.testmonial-title
+{
+    display: flex;
+    justify-content: center;
+}
+.testmonial-title h1
+{
+    text-align: center;
+    font-weight: bold;  
+    font-size:2.7rem;
+    letter-spacing: 0.0119em;
+    color:#0F172B;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.testmonial-card
+{
+    width: 100%;
+    height: 280px;
+    background-color: #fff;
+    padding: 15px 30px;
+    border: 2px solid #d2d2d2;
+    margin-bottom: 10px;
+    
+}
+
+.testmonial-card svg
+{
+    width: 40px;
+    height: 40px;
+    color: #FEA116;
+    font-weight: bold;
+}
+.testmonial-card p
+{
+    font-size: 1.1rem;
+    font-family: "Heebo",sans-serif;
+    color: #666565;
+    margin: 10px 0;
+}
+.testmonial-card img
+{
+    border-radius: 50%;
+    max-width: 80px;
+    object-fit: cover;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.testmonial-card  .details h3
+{
+  text-transform: capitalize;
+  font-weight: bold;
+}
+.testmonial-card  .details span
+{
+    font-size: 1.1rem;
+    color: #0F172B;
+    letter-spacing: normal;
+}
+.testmonial-card:hover
+{
+    background-color: #FEA116;
+}
+.testmonial-card:hover svg,
+.testmonial-card:hover p,
+.testmonial-card:hover span,
+.testmonial-card:hover h3
+{
+    color:#FFF !important;
+}
+@media (max-width: 991px)
+{
+}

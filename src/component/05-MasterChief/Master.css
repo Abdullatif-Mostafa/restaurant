@@ -1,0 +1,163 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.master
+{
+    width:100%;
+    min-height: 100vh;
+    background-color: #F1F8FF;
+    padding-top: 30px;
+}
+.master .team-member
+{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Almarai', sans-serif;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Pacifico', cursive;
+    color: #FEA116;
+    font-size: 1.6rem;
+}
+.master .team-member span
+{
+    width: 50px;
+    height: 3px;
+    background-color: #FEA116;
+    display: flex;
+    align-items: center;
+    margin: 20px 10px;
+}
+/* color: #FEA116; */
+.master-title
+{
+    display: flex;
+    justify-content: center;
+}
+.master-title h1
+{
+    text-align: center;
+    font-weight: bold;  
+    font-size:2.7rem;
+    letter-spacing: 0.0119em;
+    color:#0F172B;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+.master-card
+{
+    width: 100%;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    margin-top: 40px;
+    /* gap: 10px; */
+}
+.master-card .master-detail
+{
+    /* position: relative; */
+    background-color: #fff;
+    width: 100%;
+    overflow: hidden;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 5px;
+    margin-bottom: 15px;
+}
+.master-card .master-detail .image 
+{
+    width:220px;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border-radius: 50%;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+.master-card .master-detail p
+{
+    padding: 10px;
+    font-style: normal;
+}
+.master-card .master-detail .image img
+{
+    width:100%;
+    transition: .3s;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+}
+.master-card .master-detail  p
+{
+    font-size: 2.1rem;
+    color: #FEA116;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.master-card .master-detail small
+{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #5c5c5c;
+    padding-top: 0;
+}
+.master-card :hover
+{
+    cursor: pointer;
+}
+.master-card .master-detail .image img:hover  {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+.links
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+.links div
+{
+    width: 40px;
+    height: 40px;
+    background-color: #FEA116;
+    margin-left: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* align-self: flex-end; */
+    /* justify-content: flex-end; */
+    padding-top: 5px;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+}
+.links div svg{
+    color: #fff;
+    font-size: 2rem;
+    width: 19px;
+    height: 19px;
+}
+
+.links div:hover svg
+{
+    color: #000;
+}
