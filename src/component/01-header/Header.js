@@ -6,7 +6,7 @@ import { Router, Route, Link, BrowserRouter, link } from 'react-router-dom';
 
 const Header = () => {
  
-  }
+  
   return (
     <>
     <div className='header'>
@@ -22,19 +22,16 @@ const Header = () => {
               <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
             </svg>
             </label>
-     
-
-              <div className='links'>
+                  <div className='links'>
                   <ul>
-                       <li><a className="home" href="#fd"><span data-hover="home">home</span></a></li>
-                      <li> 
-                      <a href="#About Us"><span data-hover="About Us">About Us</span></a>
+                       <li><Link className="home" href="/"><span data-hover="home">home</span></Link></li>
+                      <li><Link to="/About Us"><span data-hover="About Us">About Us</span></Link>
                       </li>
-                      <li><a href="#Services"><span data-hover="Services">Services</span></a></li>
-                      <li><a href="#menu"><span data-hover="Menu">Menu</span></a></li>
-                      <li><a href="#pages"><span data-hover="pages">pages</span></a></li>
-                      <li><a href="#contact"><span data-hover="Contact">Contact</span></a></li>
-                    <li><a href='#Book' > <button className='btnn' style={{width:"190px",height:"50px"}}>Book A Table</button></a></li>
+                      <li><Link to="/Services"><span data-hover="Services">Services</span></Link></li>
+                      <li><Link to="/menu"><span data-hover="Menu">Menu</span></Link></li>
+                      <li><Link to="/pages"><span data-hover="pages">pages</span></Link></li>
+                      <li><Link to="/contact"><span data-hover="Contact">Contact</span></Link></li>
+                    <li><Link to='/Book' > <button className='btnn' style={{width:"190px",height:"50px"}}>Book A Table</button></Link></li>
                   </ul>
               </div>
               {/* </Route> */}
@@ -64,7 +61,7 @@ const Header = () => {
   </div>
 </div>
 
-</div>
+    </div>
 
     </>
 
